@@ -5,12 +5,13 @@ public enum TipoTelefone {
     RESIDENCIA("Redidencia"),
     CELULAR("Celular");
 
-        private String telefone;
+    private String telefone;
 
     TipoTelefone(String telefone) {
         this.telefone = telefone;
     }
-    public String getTelefone(){
+
+    public String getTelefone() {
         return telefone;
     }
 }
